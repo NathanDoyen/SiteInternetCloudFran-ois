@@ -1,0 +1,91 @@
+<!-- Réalisé par M. DOYEN Nathan et M. FROMAGER Victor -->
+<!DOCTYPE html>
+<html>
+<!--  En-tête de la fenêtre web -->
+<head>
+<title>Exercice 2</title>
+<!--  Références -->
+<link rel="stylesheet" type="text/css" title="design"
+	href="CSS/design_index.css" />
+<script src="javascript/traitement.js">
+	
+</script>
+<!--  Logo EPF en icone de la fenêtre -->
+<link rel="icon" type="image/jpg" href="img/logo.jpg" />
+</head>
+<!--  Fin de l'en-tête de la fenêtre web -->
+<body>
+	<div id="page">
+		<!-- en-tête de page -->
+		<div id="en-tete"></div>
+		<!--  Fin en-tête de page -->
+
+		<!-- menu de page -->
+		<div id="menu">
+			<table class="t_menu">
+				<td class="td1"><a class="lienex"
+					href="../TP2_Accueil_DOYEN_FROMAGER/index.html"></a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice1_DOYEN_FROMAGER/index.html"><br>Exercice
+						1 : Prix TTC</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice2_DOYEN_FROMAGER/index.html"><br>Exercice
+						2 : Produit de deux nombres</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice3_DOYEN_FROMAGER/index.html"><br>Exercice
+						3 : Prix d'un menu</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice4_DOYEN_FROMAGER/index.html"><br>Exercice
+						4 : Manipulation d'image</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice5_DOYEN_FROMAGER/index.html"><br>Exercice
+						5 : Tri d'un tableau</a></td>
+
+			</table>
+		</div>
+		<!-- Formulaire avec liste déroulantes de choix -->
+		<div id="repas">
+			<h1>Composez votre menu</h1>
+			<br>
+			<h2>Entrée :</h2>
+			<select id="entree">
+				<option value="1">Légumes d'hiver</option>
+				<option value="2" selected>Soupe au choux</option>
+				<option value="3">Gaspacho</option>
+			</select>
+			<h2>Plat :</h2>
+			<select id="plat">
+				<option value="1">Tartare de bar au gingembre</option>
+				<option value="2" selected>Sauté de veau au chorizo</option>
+				<option value="3">Lapin à la moutarde maison</option>
+			</select>
+			<h2>Dessert :</h2>
+			<select id="dessert">
+				<option value="1">Pancakes</option>
+				<option value="2" selected>Tiramisu</option>
+				<option value="3">Pain d'épices</option>
+			</select>
+			<button onclick="Calculer_prix()">Choisir</button>
+		</div>
+
+		<!-- Division d'affichage des prix des menus -->
+		<div id="note">
+			<h1>Montant à payer</h1>
+			<br> Entrée &nbsp; &nbsp; :
+			<textarea id="txtent" rows="1" cols="10" disabled>...$</textarea>
+			<br> Plat &nbsp; &nbsp; &nbsp; &nbsp; :
+			<textarea id="txtpla" rows="1" cols="10" disabled>...$</textarea>
+			<br> Dessert &nbsp; :
+			<textarea id="txtdes" rows="1" cols="10" disabled>...$</textarea>
+			<br>
+		</div>
+
+		<!-- Division d'affichage du prix du total -->
+		<div id="total">
+			Total :
+			<textarea id="txttot" rows="1" cols="10" disabled>...$</textarea>
+			<br>
+		</div>
+	</div>
+</body>
+</html>

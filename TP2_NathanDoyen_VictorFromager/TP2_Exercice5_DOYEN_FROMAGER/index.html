@@ -1,0 +1,70 @@
+<!-- Réalisé par M. DOYEN Nathan et M. FROMAGER Victor -->
+<!DOCTYPE html>
+<html>
+<!--  En-tête de la fenêtre web -->
+<head>
+<title>Exercice 2</title>
+<!--  Références -->
+<link rel="stylesheet" type="text/css" title="design"
+	href="CSS/design_index.css" />
+<script src="javascript/traitement.js">
+	
+</script>
+<!--  Logo EPF en icone de la fenêtre -->
+<link rel="icon" type="image/jpg" href="img/logo.jpg" />
+</head>
+<!--  Fin de l'en-tête de la fenêtre web -->
+<body>
+	<div id="page">
+		<!-- en-tête de page -->
+		<div id="en-tete"></div>
+		<!--  Fin en-tête de page -->
+
+		<!-- menu de page -->
+		<div id="menu">
+			<table class="t_menu">
+				<td class="td1"><a class="lienex"
+					href="../TP2_Accueil_DOYEN_FROMAGER/index.html"></a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice1_DOYEN_FROMAGER/index.html"><br>Exercice
+						1 : Prix TTC</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice2_DOYEN_FROMAGER/index.html"><br>Exercice
+						2 : Produit de deux nombres</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice3_DOYEN_FROMAGER/index.html"><br>Exercice
+						3 : Prix d'un menu</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice4_DOYEN_FROMAGER/index.html"><br>Exercice
+						4 : Manipulation d'image</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice5_DOYEN_FROMAGER/index.html"><br>Exercice
+						5 : Tri d'un tableau</a></td>
+
+			</table>
+		</div>
+		<!-- Tableau de chiffres -->
+		<div id="tableau">
+			<h1>Tableau de tri automatique de six numéros (Le tableau peut
+				être rempli à la main)</h1>
+			<table id="num">
+				<tr>
+					<td class="tdn"><textarea id="n1" rows="1" cols="3">...</textarea></td>
+					<td class="tdn"><textarea id="n2" rows="1" cols="3">...</textarea></td>
+					<td class="tdn"><textarea id="n3" rows="1" cols="3">...</textarea></td>
+					<td class="tdn"><textarea id="n4" rows="1" cols="3">...</textarea></td>
+					<td class="tdn"><textarea id="n5" rows="1" cols="3">...</textarea></td>
+					<td class="tdn"><textarea id="n6" rows="1" cols="3">...</textarea></td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- Boutons de commandes -->
+		<div id="Commandes">
+			<button onclick="Generer()">Generer des nombres aléatoires</button>
+			<button onclick="Trier()">Trier les numéros dans l'ordre
+				croissant</button>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!-- Réalisé par M. DOYEN Nathan et M. FROMAGER Victor -->
+<!DOCTYPE html>
+<html>
+<!--  En-tête de la fenêtre web -->
+<head>
+<title>Exercice 2</title>
+<!--  Références -->
+<link rel="stylesheet" type="text/css" title="design"
+	href="CSS/design_index.css" />
+<script src="javascript/traitement.js">
+	
+</script>
+<!--  Logo EPF en icone de la fenêtre -->
+<link rel="icon" type="image/jpg" href="img/logo.jpg" />
+</head>
+<!--  Fin de l'en-tête de la fenêtre web -->
+<body>
+	<div id="page">
+		<!-- en-tête de page -->
+		<div id="en-tete"></div>
+		<!--  Fin en-tête de page -->
+
+		<!-- menu de page -->
+		<div id="menu">
+			<table class="t_menu">
+				<td class="td1"><a class="lienex"
+					href="../TP2_Accueil_DOYEN_FROMAGER/index.html"></a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice1_DOYEN_FROMAGER/index.html"><br>Exercice
+						1 : Prix TTC</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice2_DOYEN_FROMAGER/index.html"><br>Exercice
+						2 : Produit de deux nombres</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice3_DOYEN_FROMAGER/index.html"><br>Exercice
+						3 : Prix d'un menu</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice4_DOYEN_FROMAGER/index.html"><br>Exercice
+						4 : Manipulation d'image</a></td>
+				<td class="td2"><a class="lienex"
+					href="../TP2_Exercice5_DOYEN_FROMAGER/index.html"><br>Exercice
+						5 : Tri d'un tableau</a></td>
+
+			</table>
+		</div>
+
+		<!-- Affichage de l'image -->
+		<div id="content" class="box">
+
+			<br />
+			<center>
+				<img id='imag' src='img/Saint_Cloud.jpg' width='350' height='300'
+					name="Photo_TP2" border="2" />
+			</center>
+			<br />
+
+			<!-- Formulaire -->
+			<fieldset>
+				<legend> Propriété d'une image </legend>
+				<input type='button' value="Lire Propriétés"
+					onclick="Lire_Propriete();" /> <input type='button'
+					value="Ecrire Propriétés" onclick="Ecrire_Propriete();" /> <br />
+				Bordure :<br /> <input type='text' id='bord' size='50' /> <br />
+				Hauteur :<br /> <input type='text' id='haut' size='50' /> <br />
+				Largeur :<br /> <input type='text' id='larg' size='50' /> <br /> Nom
+				:<br /> <input type='text' id='Nom' size='50' /> <br /> Source :<br />
+				<input type='text' id='sorc' size='50' /> <br />
+			</fieldset>
+
+
+		</div>
+
+
+	</div>
+</body>
+</html>

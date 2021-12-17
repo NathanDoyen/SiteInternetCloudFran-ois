@@ -1,0 +1,114 @@
+/*
+Réalisé par  
+M. DOYEN Nathan et M. FROMAGER Victor
+*/
+
+/* ======================= Le contenu de la page ======================= */
+
+#page {
+	width: 1500px;
+	height: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* =========== L'en-tête de page =========== */
+
+#en-tete {
+	width: 298px;
+	height: 121px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	background-image: url("../img/logo_epf_0.png");
+	background-repeat: no-repeat;
+}
+
+/* =========== Le menu de page =========== */
+
+#menu {
+	height: 60px;
+	margin-left: 10px;
+	margin-right: 20px;
+	background-image: url("../img/menu.png");
+	background-repeat: no-repeat;
+	background-size: 1450px;
+}
+
+/* ------------------------------*/
+
+.t_menu {
+	height: 57px;
+	width: 1400px;
+	font-family: Calibri;
+	color: white;
+}
+
+/* ------------------------------*/
+
+.td1 {
+	height: 57px;
+	font-size: 15px;
+	text-align: center;
+	border-right: 2px solid #020815;
+	width: 110px;
+	background-image: url("../img/home-button.png");
+	background-repeat: no-repeat;
+	background-size: 90px;
+}
+
+/* ------------------------------*/
+
+.td2 {
+	height: 57px;
+	font-size: 15px;
+	text-align: center;
+	border-right: 2px solid #020815;
+	width: 300px;
+	
+}
+
+/* ------------------------------*/
+
+a{
+	text-align: center;
+	font-family: Calibri;
+	color: white;
+	text-decoration: none;
+	}
+
+/* ------------------------------*/
+
+.lienex {
+    display: block;
+    height:57px;
+	text-align: center;
+}
+
+/* ------------------------------*/
+
+td[class=td2]:hover {
+	background-image: url("../img/menu-hover.png");
+	cursor: pointer !important;
+	cursor: hand;
+	background-size: 30%;
+	background-position: right 0%;
+}
+
+/* ------------------------------*/
+
+td[class=td1]:hover {
+	background-image: url("../img/home-button.png");
+	cursor: pointer !important;
+	cursor: hand;
+	background-size: 100%;
+	background-position: right 0%;
+}
+
+/* =========== Le Formulaire =========== */
+
+fieldset{
+		width: 1300px;
+		margin-left: 40px;
+	    margin-top: 20px;
+}
